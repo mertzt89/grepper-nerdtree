@@ -1,0 +1,29 @@
+==============================================================================
+CONTENTS                                             *NERDTree-Grepper-contents*
+
+    1. Intro............................................|NERDTreeGrepper|
+    2. Mappings..................................|NERDTreeGrepperMapping|
+    3. License...................................|NERDTreeGrepperLicense|
+
+==============================================================================
+1. Intro                                                       *NERDTreeGrepper*
+
+This plugin integrates NERDTree and Grepper such that Grepper can be started
+and configured to search relative to the selected directory in NERDTree.
+
+==============================================================================
+2. Mappings                                             *NERDTreeGrepperMapping*
+
+Default:
+    <leader>gg
+
+Configuring mapping:
+    let g:nerdtree_grepper = { 'key': '<leader>gg' }
+
+==============================================================================
+3. License                                              *NERDTreeGrepperLicense*
+
+See ./LICENSE
+
+------------------------------------------------------------------------------
+vim:tw=78:ts=8:ft=help:noet:nospell
